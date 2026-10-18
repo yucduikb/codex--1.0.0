@@ -1,0 +1,15 @@
+.local/
+releases/
+engine/runtime/
+DragonCodexBoot.exe
+launcher.json
+skin/
+state/
+logs/
+qa/
+.integration/
+backups/
+install-state.json
+*.user
+*.pyc
+__pycache__/

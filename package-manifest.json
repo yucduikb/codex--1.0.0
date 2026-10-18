@@ -1,0 +1,311 @@
+﻿{
+    "schema":  1,
+    "version":  "0.2.0-seamless.1",
+    "files":  [
+                  {
+                      "path":  ".gitattributes",
+                      "bytes":  138,
+                      "sha256":  "194df1211f4eb738fd40e49fd53ee1c4c200b7fccb620eb8404bb1a6f27ac3b1"
+                  },
+                  {
+                      "path":  ".github/workflows/packages.yml",
+                      "bytes":  485,
+                      "sha256":  "3cd11cd7675b6cc70856328bbd15ff993a428c7f3eae020652d6d044f7b3a584"
+                  },
+                  {
+                      "path":  ".gitignore",
+                      "bytes":  159,
+                      "sha256":  "6a741a09de4e1f1f17b7e3fcf9f3efb0db3185f19b01fc90f4b093fea93b2ac1"
+                  },
+                  {
+                      "path":  "AGENTS.md",
+                      "bytes":  2767,
+                      "sha256":  "ca948a3fc3bc792fb7a56adeb9a5329fcd66981eb1856547ea793d40df3d0d6f"
+                  },
+                  {
+                      "path":  "config/launcher.json",
+                      "bytes":  1094,
+                      "sha256":  "b4c1d179ea11a0ee7b4ea6243674aaaa03ab0ca731965d5eba93cb0c8f070dd1"
+                  },
+                  {
+                      "path":  "DEPLOY_WITH_GPT.md",
+                      "bytes":  1229,
+                      "sha256":  "1d6d0b703bb5376d5a1afe3260e5422cb56e30840c6eb8edf3ee5c40a97278f6"
+                  },
+                  {
+                      "path":  "docs/CHANGES.md",
+                      "bytes":  1851,
+                      "sha256":  "0e40098abde3cd1e13651a8204a2cd292f8afab5a4c5b037bbdecd486cd3303b"
+                  },
+                  {
+                      "path":  "docs/DEPLOYMENT.md",
+                      "bytes":  3736,
+                      "sha256":  "0fd17aedaf720b4c55f29eaf7d0109ef51c7113f5ff2f3c4cb0da4e1741f8750"
+                  },
+                  {
+                      "path":  "docs/EXPORT-VALIDATION.md",
+                      "bytes":  1441,
+                      "sha256":  "9c776db7504faeeec9ecdb0dd15758b5539d5c0d322b2997aa68755c14aae902"
+                  },
+                  {
+                      "path":  "docs/PUBLISHING.md",
+                      "bytes":  2025,
+                      "sha256":  "db56960c160a0027541d2052d72d5734e1f6646862f06734f89bb8e445b61cc7"
+                  },
+                  {
+                      "path":  "docs/TESTING.md",
+                      "bytes":  1814,
+                      "sha256":  "d6698412927cb145a292821d6f6feec1cddd174cb09c466aa6248483a080308a"
+                  },
+                  {
+                      "path":  "engine/assets/compat-profile-client.mjs",
+                      "bytes":  17560,
+                      "sha256":  "9cf67b805cd81d2c5d0e77bfe23abaef4a2831c2f0aca20159a49cbde721d6e3"
+                  },
+                  {
+                      "path":  "engine/assets/dream-skin.css",
+                      "bytes":  97219,
+                      "sha256":  "78f33c79448ef9ed6a560a490411952111fedf1db0f877673a33b2f6ca1ac30c"
+                  },
+                  {
+                      "path":  "engine/assets/renderer-inject.js",
+                      "bytes":  78992,
+                      "sha256":  "63c0312b6f2ef3a5fb17f1551f79a76e7a4fbcb301dc3da6fd4dabc0b3f02461"
+                  },
+                  {
+                      "path":  "engine/assets/safe-css-policy.json",
+                      "bytes":  2009,
+                      "sha256":  "c784dd3a16d71395fca0b2695047395dc6f951f44df962284976faeb0b3ea551"
+                  },
+                  {
+                      "path":  "engine/assets/safe-css-validator.mjs",
+                      "bytes":  22877,
+                      "sha256":  "98a626655a4167ba0bbbff5eab96e78de7a5a74371e4a4ff6d8ac15211e5b24e"
+                  },
+                  {
+                      "path":  "engine/assets/selectors.json",
+                      "bytes":  12232,
+                      "sha256":  "939217a45f6502b9939a23f8eb6d1e766d306a94f462adfe38d9d50d0c191873"
+                  },
+                  {
+                      "path":  "engine/assets/theme-package-validator.mjs",
+                      "bytes":  21428,
+                      "sha256":  "8f249d726367c383d8c5894890e2b6d1c3b56a7282d7441a80cfb6470955b5f8"
+                  },
+                  {
+                      "path":  "engine/assets/theme-preferences.mjs",
+                      "bytes":  2093,
+                      "sha256":  "a0e8b92eff21ce3ec59031205ae8cab2dd229f5f2f2f1310de9a608bb1a89275"
+                  },
+                  {
+                      "path":  "engine/scripts/common-windows.ps1",
+                      "bytes":  64840,
+                      "sha256":  "a6ea8e59633943ec49f2d41061882e84a7b2255c4b442944d55fb0dd36914fc9"
+                  },
+                  {
+                      "path":  "engine/scripts/config-utf8.ps1",
+                      "bytes":  65616,
+                      "sha256":  "95170e1deccf31cd49f366d29f6b922e6ca9b3259ed8f1bd38e4747fda264ee4"
+                  },
+                  {
+                      "path":  "engine/scripts/image-metadata.mjs",
+                      "bytes":  6164,
+                      "sha256":  "4ec6d1794a2ba58e3733bcab74723f4e2e061ad8d4e7bbc8664693d4aef09cb4"
+                  },
+                  {
+                      "path":  "engine/scripts/injector.mjs",
+                      "bytes":  106084,
+                      "sha256":  "3a842dd90ad2261d36fde69469225e0bcb058cbbf4438f72c37e7c3413116de8"
+                  },
+                  {
+                      "path":  "engine/scripts/theme-windows.ps1",
+                      "bytes":  142717,
+                      "sha256":  "aff300f8e3c7d645bf90a097cd67b9f61fc49ddde28c3d06370bceb1b9648540"
+                  },
+                  {
+                      "path":  "engine/scripts/validate-safe-css-file.mjs",
+                      "bytes":  1414,
+                      "sha256":  "51a7ff9e2f85d6586390b3855dc63faa4d549c20fe76d852d82196d558b5da26"
+                  },
+                  {
+                      "path":  "Install.cmd",
+                      "bytes":  293,
+                      "sha256":  "da6227043478b27a95cf9e6c81c0ae78c85effa4a30b442c89d7cd5d95f1886a"
+                  },
+                  {
+                      "path":  "Install.ps1",
+                      "bytes":  7479,
+                      "sha256":  "96cc7bfe59a11d357c8e95f75f70e7a43bce3062460f7e034da1d90b84d7e7fe"
+                  },
+                  {
+                      "path":  "LICENSE",
+                      "bytes":  1087,
+                      "sha256":  "4ffc2131be78bd83127661a0f6a2994bc05df71bfd9b629beb585cced63e67b1"
+                  },
+                  {
+                      "path":  "licenses/Codex-Dynamic-Skin-LICENSE.txt",
+                      "bytes":  1093,
+                      "sha256":  "18f8478d0f9efd45307e5f17790194593b116658145c758ced3166398eb05b21"
+                  },
+                  {
+                      "path":  "licenses/Node.js-LICENSE.txt",
+                      "bytes":  148217,
+                      "sha256":  "8cc9bb466b19fc7e7cc99d03e9df1132021fda8b01eea2624c58bb372dbef576"
+                  },
+                  {
+                      "path":  "media/continuity.mp4",
+                      "bytes":  17547512,
+                      "sha256":  "99b0c5ae9b132fb4018553a3c40f221fecf5ffafdb618833e6fc91db3de41577"
+                  },
+                  {
+                      "path":  "media/MEDIA_NOTICE.md",
+                      "bytes":  619,
+                      "sha256":  "e61aa3c6d5631bc89b42cd952e9cf0b33ca7f85f780274611b9c02b50a16cebc"
+                  },
+                  {
+                      "path":  "media/startup.mp4",
+                      "bytes":  22937247,
+                      "sha256":  "a322c9947e6486c887cdc0ba913bbe57476b230abf45d85d95d86bce3898cfcd"
+                  },
+                  {
+                      "path":  "README.md",
+                      "bytes":  5961,
+                      "sha256":  "0b17673d82f4a567a8e484b42e46884aebed31584ad5f63377c59c615d9c944d"
+                  },
+                  {
+                      "path":  "scripts/Build.ps1",
+                      "bytes":  1478,
+                      "sha256":  "bb1cfd8e999c8ba7f94a87ad9cc2379152bf5cf0b1486733f0efe4a23f783410"
+                  },
+                  {
+                      "path":  "scripts/Build-Release.ps1",
+                      "bytes":  3352,
+                      "sha256":  "fe6735415d2042193d64e2787f2677eee0e217482b4f0d268611d7ad28b930e5"
+                  },
+                  {
+                      "path":  "scripts/Ensure-Node.ps1",
+                      "bytes":  2971,
+                      "sha256":  "7f5e5ade1d9ca8b6a57e11bc286c70c19b1d07821dea5cdb31c1fbaee5648930"
+                  },
+                  {
+                      "path":  "scripts/Import-Animation.ps1",
+                      "bytes":  2220,
+                      "sha256":  "6cc3a9e4ce87d8a8f827849370d0484bfc9d03cf01ca2c1259a9790e895923c6"
+                  },
+                  {
+                      "path":  "scripts/integrate-entrypoints.ps1",
+                      "bytes":  15604,
+                      "sha256":  "a6eb1273453022c47d35cb3248be8ef6328f647adf92542e726e8e7452d89c43"
+                  },
+                  {
+                      "path":  "scripts/Package-Common.ps1",
+                      "bytes":  3337,
+                      "sha256":  "153cf12e421e1bfc04a5f5a22b9a5706d34819407ee52d8627c7b811a40b7500"
+                  },
+                  {
+                      "path":  "scripts/Test-Package.ps1",
+                      "bytes":  2879,
+                      "sha256":  "f109289e81f94d4731f1986bd8db9bcfea498f2b9035be8eede45647316bc7d8"
+                  },
+                  {
+                      "path":  "scripts/Uninstall.ps1",
+                      "bytes":  2309,
+                      "sha256":  "8ce4b7a6e4f11731bb9a036752fa8139e21335a402faf8bb33e9679026ea0afb"
+                  },
+                  {
+                      "path":  "scripts/Update-Manifest.ps1",
+                      "bytes":  699,
+                      "sha256":  "4297119cb0ab18551bf991128b2202b041d58c8b4e16aed6a1b8526e36e3415b"
+                  },
+                  {
+                      "path":  "scripts/Wait-DragonSkinReady.mjs",
+                      "bytes":  7571,
+                      "sha256":  "d9e68c4f50647fdc58b7935f508c0b4288a647b210c3b0c559d0c8c9590b19f2"
+                  },
+                  {
+                      "path":  "scripts/Wait-DragonSkinReady.ps1",
+                      "bytes":  9856,
+                      "sha256":  "0afefc5b576dc2b8d5b5eabb0e810da5e8066ec872ed427feb54196e66996b1a"
+                  },
+                  {
+                      "path":  "src/app.manifest",
+                      "bytes":  687,
+                      "sha256":  "576a60af5f7df9e9fd98d9af3662aa3f1c2cef7763852dbdce5619a3e4f0b2c8"
+                  },
+                  {
+                      "path":  "src/DragonCodexBoot.cs",
+                      "bytes":  33340,
+                      "sha256":  "2ad727a83903173154f3626ea1cc8261816bf44138d3630a4ec27c499f66c847"
+                  },
+                  {
+                      "path":  "tests/AppearanceTests.ps1",
+                      "bytes":  1995,
+                      "sha256":  "3e465835ff0966775a671232fdce045ee0ea626c87358bfc29763e062cec9bdb"
+                  },
+                  {
+                      "path":  "tests/EntrypointTests.ps1",
+                      "bytes":  8204,
+                      "sha256":  "4eb90297d5c23cc1b07199bb56da165c417a2dd140aec877868929f4fe251d16"
+                  },
+                  {
+                      "path":  "tests/PayloadTests.mjs",
+                      "bytes":  885,
+                      "sha256":  "5dba6fc0cec1808f0fefaee9ae2dcd90d2ba7db2de2e11b642dda953f1919dd9"
+                  },
+                  {
+                      "path":  "tests/Test-StartupIdentity.ps1",
+                      "bytes":  1364,
+                      "sha256":  "1e9c8c88e9fb06366f50c4bc325e0a9db0b86a5fd0a9a144f307aff5cdd3fe0a"
+                  },
+                  {
+                      "path":  "themes/dragon/MEDIA_NOTICE.md",
+                      "bytes":  655,
+                      "sha256":  "21b270c974b103f0b2010293fbc955d32a7e563d5385892db56ae7e6b90e75f8"
+                  },
+                  {
+                      "path":  "themes/dragon/theme.json",
+                      "bytes":  1303,
+                      "sha256":  "b3be02183c7bee94571454c483a1bb0de4311394cebd56c20a6d6a18f60613ba"
+                  },
+                  {
+                      "path":  "themes/dragon/wallpaper.mp4",
+                      "bytes":  8103029,
+                      "sha256":  "f6e71db898f3f731d1bff214be1954b2b42f693386f73a7bfa1661d0dc7d7d8e"
+                  },
+                  {
+                      "path":  "THIRD_PARTY_NOTICES.md",
+                      "bytes":  2866,
+                      "sha256":  "b7e04437ace91de058a13df02c1e66051b811f0c36455d941fda9cee3b63e970"
+                  },
+                  {
+                      "path":  "tools/Build-DragonContinuity.py",
+                      "bytes":  3579,
+                      "sha256":  "5503bfd454d9361002624b1fbbc95e3c83c900f51c13c091f27a2400c5ac2729"
+                  },
+                  {
+                      "path":  "tools/Optimize-DragonWallpaper.py",
+                      "bytes":  3957,
+                      "sha256":  "6f7c821a276dbaca77bdc918a982cb2021770a5a25cfcbecac97bbb5473ac2e9"
+                  },
+                  {
+                      "path":  "tools/README.md",
+                      "bytes":  895,
+                      "sha256":  "5f095ddb39a9c0d57ed41e6b4fe3ffb372b29ad9f3bc89a76d650cecb06c94f1"
+                  },
+                  {
+                      "path":  "tools/requirements.txt",
+                      "bytes":  48,
+                      "sha256":  "ae9d6b23c9d52b4664852028864ee6c309b790db9c996ba22f0508cb1aa85588"
+                  },
+                  {
+                      "path":  "Uninstall.cmd",
+                      "bytes":  232,
+                      "sha256":  "b22a814d97405f88633bc7738a3a714629a2cf8c9b5f0a1ff832802c01e817b8"
+                  },
+                  {
+                      "path":  "VERSION",
+                      "bytes":  17,
+                      "sha256":  "8904b49b5cba964ad2c5c4c3bb9ea3847f30a83fdfdb32a834a93a8b6e2fd290"
+                  }
+              ]
+}

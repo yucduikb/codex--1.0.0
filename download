@@ -1,0 +1,6 @@
+# Preserve the exact bytes hashed in package-manifest.json on every checkout.
+* -text
+*.mp4 binary
+*.exe binary
+*.png binary
+*.ico binary
