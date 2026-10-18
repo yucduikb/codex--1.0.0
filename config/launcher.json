@@ -1,0 +1,54 @@
+{
+  "AutoReplaceEntrypoints": false,
+  "ScanAllLocalDrives": false,
+  "Video": "media/startup.mp4",
+  "AppLaunch": "shell:AppsFolder\\OpenAI.Codex_2p2nqsd0c76g0!App",
+  "ProcessPathContains": "OpenAI.Codex_",
+  "ProcessNames": [
+    "ChatGPT",
+    "Codex"
+  ],
+  "HoldAt": 12.5,
+  "TransitionStart": 12.7,
+  "TransitionEnd": 13.65,
+  "MaxWaitSeconds": 60,
+  "Volume": 1,
+  "PlayerWidth": 1600,
+  "PlayerHeight": 900,
+  "MatchClientToPlayer": true,
+  "ReadyFile": "state/skin-ready.flag",
+  "LaunchScript": "scripts/Wait-DragonSkinReady.ps1",
+  "ContinuityVideo": "media/continuity.mp4",
+  "ContinuityAt": 12.0,
+  "ScreenFrames": [
+    {
+      "Time": 12.65,
+      "X": 0.123,
+      "Y": 0.094,
+      "Width": 0.736,
+      "Height": 0.725
+    },
+    {
+      "Time": 13,
+      "X": 0.074,
+      "Y": 0.061,
+      "Width": 0.845,
+      "Height": 0.825
+    },
+    {
+      "Time": 13.5,
+      "X": 0,
+      "Y": 0,
+      "Width": 1,
+      "Height": 1
+    },
+    {
+      "Time": 13.65,
+      "X": 0,
+      "Y": 0,
+      "Width": 1,
+      "Height": 1
+    }
+  ],
+  "DisplayName": "Dragon Codex Boot"
+}

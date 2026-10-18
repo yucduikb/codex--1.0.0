@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {pathToFileURL} from 'node:url';
+import path from 'node:path';
+import fs from 'node:fs/promises';
+const [injectorPath, themePath] = process.argv.slice(2);
+const {loadPayload} = await import(pathToFileURL(path.resolve(injectorPath)));
+const payload = await loadPayload(path.resolve(themePath));
+assert.equal(payload.mediaType, 'video');
+assert(payload.revision, 'Wallpaper payload needs an identity revision');
+const theme = JSON.parse(await fs.readFile(path.join(themePath, 'theme.json'), 'utf8'));
+assert.equal(theme.appearance, 'light');
+assert.equal(theme.media.playbackRate, 1);
+assert.equal(theme.media.opacity, 0.9);
+assert.equal(theme.image, 'wallpaper.mp4');
+assert((await fs.stat(path.join(themePath, theme.image))).size < 16 * 1024 * 1024);
+console.log('PASS: isolated video payload, full engine imports and theme contract.');

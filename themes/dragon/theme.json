@@ -1,0 +1,38 @@
+{
+    "schemaVersion":  1,
+    "id":  "dragon-codex-light",
+    "brandSubtitle":  "DRAGON CODEX",
+    "tagline":  "Build with the dragon companion.",
+    "projectPrefix":  "Select project - ",
+    "projectLabel":  "Select project",
+    "statusText":  "DRAGON ONLINE",
+    "quote":  "MAKE SOMETHING WONDERFUL",
+    "appearance":  "light",
+    "art":  {
+                "focusX":  0.66,
+                "focusY":  0.48,
+                "safeArea":  "left",
+                "taskMode":  "ambient"
+            },
+    "colors":  {
+                   "background":  "#eef1f8",
+                   "panel":  "#f8f9fd",
+                   "panelAlt":  "#edf0fa",
+                   "accent":  "#7468bd",
+                   "accentAlt":  "#a99be4",
+                   "secondary":  "#889bd0",
+                   "highlight":  "#8d7bd3",
+                   "text":  "#29324a",
+                   "muted":  "#66718b",
+                   "line":  "rgba(111, 101, 177, .24)"
+               },
+    "promoTitle":  "Dragon Codex",
+    "promoSub":  "Light Dragon Companion",
+    "image":  "wallpaper.mp4",
+    "media":  {
+                  "type":  "video",
+                  "playbackRate":  1,
+                  "opacity":  0.9
+              },
+    "name":  "Dragon Codex Light"
+}
